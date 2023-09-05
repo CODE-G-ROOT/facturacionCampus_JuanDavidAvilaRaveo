@@ -1,14 +1,14 @@
 import express from 'express';
 import dotenv from 'dotenv';
-import { appEmpleados,appInfraestructura,appHMant,appHMed,appEventos, appFinanzas,appOrg} from './routers/routes.js';
-import { appToken, appVerify} from './helpers/jwt.js';
+// import { appEmpleados,appInfraestructura,appHMant,appHMed,appEventos, appFinanzas,appOrg} from './routers/routes.js';
+// import { appToken, appVerify} from './helpers/jwt.js';
 
 dotenv.config();
 let app = express();
 
 app.use(express.json());
 //app.use("/productos",appVerify, appBodegas);
-app.use("/asd", appToken);
+// app.use("/asd", appToken);
 
 const server_config = JSON.parse(process.env.MY_SERVER)
 app.listen(server_config, ()=>{

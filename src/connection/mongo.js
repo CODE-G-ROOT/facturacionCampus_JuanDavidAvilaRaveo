@@ -7,7 +7,7 @@ const user = data.ATLAS_USER;
 const pasword = data.ATLAS_PASSWORD;
 const other = user.toLowerCase();
 
-const connectString = `mongodb+srv://${user}:${pasword}@${other}.ikw3dq6.mongodb.net/`;
+const connectString = `mongodb+srv://${user}:${pasword}@${other}.e7umrrf.mongodb.net/`;
 const cliente = new MongoClient(connectString);
 
 try {
