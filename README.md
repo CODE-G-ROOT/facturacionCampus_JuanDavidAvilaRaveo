@@ -62,7 +62,6 @@ Archivos de referencia de investigación:
 
 - [Auth](./resources/markdown/AUTH.md) : Investigación de autenticación y validacion por tokens jwt
 - [Controllers](./resources/markdown/CONTROLLERS.md) : Investigación de manejo de controladores
-- [Conection](./resources/markdown/CONNECTION.md) : es una conexion
 - [Express_validator](./resources/markdown/AUTH.md) : Investigación sobre como usar esta dependencia
 - [Gen](./resources/markdown/GEN.md) : Archivo de generación de el archivo .env ya configurado
 - [Generacion_id](./resources/markdown/GENERACIÓN_ID.md) : Explicaión y como usar la el codigo de autogeneración de id
