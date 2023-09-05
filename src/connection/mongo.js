@@ -2,7 +2,12 @@ import { MongoClient } from 'mongodb';
 
 let conn = undefined;
 
-const connectString = 'mongodb+srv://JuanDev856:juan856@juandev856.ikw3dq6.mongodb.net/';
+const data = JSON.parse(JSON.stringify(process.env));
+const user = data.ATLAS_USER;
+const pasword = data.ATLAS_PASSWORD;
+const other = user.toLowerCase();
+
+const connectString = `mongodb+srv://${user}:${pasword}@${other}.ikw3dq6.mongodb.net/`;
 const cliente = new MongoClient(connectString);
 
 try {
